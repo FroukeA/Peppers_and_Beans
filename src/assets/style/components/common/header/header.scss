@@ -1,0 +1,79 @@
+/* *** LAYOUT *** */
+.header__div--row-cb {
+  @include row;
+  @include between_center;
+}
+
+.header__mainTitle > span {
+  display: none;
+}
+
+.header__articleTitle {
+  @include column
+}
+
+.header__text {
+  max-width: 32vw;
+  margin: 2.4rem 0;
+}
+
+/* *** MODULE *** */
+.header__header {
+  background: $primary-color1;
+  color: $primary-color2;
+
+  background-image: url("../../../../static/svg/header_visual.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+
+  padding-bottom: 8rem;
+}
+
+.main {
+  position: relative;
+
+  padding-top: 23.8rem;
+}
+
+.main::after {
+  content: '';
+
+  background-image: url("../../../../static/svg/header_shape.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: absolute;
+
+  top: -48px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 24rem;
+}
+
+.header__mainTitle {
+  width: 155px;
+  height: 155px;
+
+  background-image: url("../../../../static/svg/logo.svg");
+  background-repeat: no-repeat;
+
+  margin-left: -29px;
+}
+
+.header__title {
+  font-size: 2.4rem;
+}
+
+.header__title--lighter {
+  font-family: 'Source Serif Pro';
+}
+
+.header__title--bolder {
+  font-weight: 700;
+  color: $brand-color1;
+}
+
+/* *** STATE *** */
+
+/* *** KEYFRAME *** */

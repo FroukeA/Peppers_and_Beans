@@ -9,9 +9,11 @@ export default function Footer(props) {
   return (
     <React.Fragment>
       <footer className={props.createClass(props.content)}>
-        {props.content.parts.map((item, i) => {
-          return props.createElement(item, i);
-        })}
+        <div className="container">
+          {props.content.parts.map((item, i) => {
+            return props.createElement(item, i);
+          })}
+        </div >
       </footer>
     </React.Fragment>
   );

@@ -1,0 +1,66 @@
+/* *** LAYOUT *** */
+
+/* *** MODULE *** */
+.footer__footer {
+  background: $primary-color1;
+  color: $primary-color2;
+
+  padding: 2.4rem 0;
+
+  & > .container {
+    @include row;
+    @include between_center;
+  }
+}
+
+.footer__text--hightlight {
+  position: relative;
+
+  margin-left: .8rem;
+
+  z-index: 0;
+}
+
+.footer__text--hightlight::before {
+  content: "";
+    position: absolute;
+
+    background-image: url("../../../../static/svg/highlight.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    top:-16px;
+    left: 0;
+    right: -10px;
+    // bottom: 0;
+
+    z-index: -1;
+    height: 38px;
+
+    
+}
+
+.footer__link {
+  color: $primary-color2;
+  text-decoration: none;
+}
+
+/* *** STATE *** */
+.footer__text--hightlight:hover { 
+  &::before {
+    // right: 0;
+    // animation: wave .300s ease-in-out;
+    left: 2.4px
+  }
+}
+
+/* *** KEYFRAME *** */
+
+@keyframes wave {
+  0% { 
+    left: 0px
+  }
+  100% { 
+    left: 2.4px
+  }
+}

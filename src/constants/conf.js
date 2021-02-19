@@ -19,7 +19,35 @@ export const nav_items = {
       element: "li",
       class: [],
       icon: "",
-      parts: [],
+      parts: [
+        {
+          label: "Services",
+          link: "#services",
+          id: "fta_1",
+          ref: "navigation",
+          type: "link",
+          element: "a",
+          class: [],
+          icon: "",
+          parentId: "",
+          dataParent: false,
+          parts: [],
+          data: [],
+          function: null
+        }, // {
+        //   label: "Services",
+        //   link: "",
+        //   id: "navlip_1",
+        //   ref: "navigation",
+        //   type: "itemText",
+        //   element: "p",
+        //   class: [],
+        //   icon: "",
+        //   parts: [],
+        //   data: [],
+        //   function: null
+        // }
+      ],
       data: [],
       function: null
     }, {
@@ -46,21 +74,38 @@ export const nav_items = {
               label: "primary",
               link: "",
               id: "",
-              ref: "weather",
+              ref: "navigation",
               type: "class",
               element: "className",
               icon: "",
               parts: [],
-              data: []
+              data: [],
+              function: null
             }
           ],
           icon: "",
           parentId: "",
           dataParent: false,
-          parts: [],
+          parts: [
+            {
+              label: "Contact",
+              link: "mailto: info@pepersandbeans.be",
+              id: "cntcta_1",
+              ref: "header",
+              type: "link",
+              element: "a",
+              class: [],
+              icon: "",
+              parentId: "",
+              dataParent: false,
+              parts: [],
+              data: [],
+              function: null
+            }
+          ],
           data: [],
-          // function: handleContact.bind(this,)
           function: null
+
         }
       ],
       data: [],
@@ -86,15 +131,60 @@ export const header__content = {
     {
       label: "Peppers & Beans",
       link: "",
-      id: "h_1",
+      id: "hddv_1",
       ref: "header",
-      type: "mainTitle",
-      element: "h1",
-      class: [],
+      type: "div",
+      element: "div",
+      class: [
+        {
+          label: "row-cb",
+          link: "",
+          id: "",
+          ref: "header",
+          type: "class",
+          element: "className",
+          icon: "",
+          parts: [],
+          data: [],
+          function: null
+        }
+      ],
       icon: "",
       parentId: "",
       dataParent: false,
-      parts: [],
+      parts: [
+        {
+          label: "Peppers & Beans",
+          link: "",
+          id: "h_1",
+          ref: "header",
+          type: "mainTitle",
+          element: "h1",
+          class: [],
+          icon: "",
+          parentId: "",
+          dataParent: false,
+          parts: [
+            {
+              label: "Peppers & Beans",
+              link: "",
+              id: "hspan_1",
+              ref: "header",
+              type: "text",
+              element: "span",
+              class: [],
+              icon: "",
+              parentId: "",
+              dataParent: false,
+              parts: [],
+              data: [],
+              func: null
+            }
+          ],
+          data: [],
+          func: null
+        }, nav_items
+      ],
       data: [],
       func: null
     }, {
@@ -114,7 +204,7 @@ export const header__content = {
           link: "",
           id: "hartclh_1",
           ref: "header",
-          type: "header",
+          type: "articleHeader",
           element: "header",
           class: [],
           icon: "",
@@ -138,9 +228,25 @@ export const header__content = {
                   link: "",
                   id: "artclspan_1",
                   ref: "header",
-                  type: "text",
+                  type: "title",
                   element: "span",
-                  class: [],
+                  class: [
+                    {
+                      label: "lighter",
+                      link: "",
+                      id: "c_1",
+                      ref: "header",
+                      type: "class",
+                      element: "className",
+                      class: [],
+                      icon: "",
+                      parentId: "",
+                      dataParent: false,
+                      parts: [],
+                      data: [],
+                      func: null
+                    }
+                  ],
                   icon: "",
                   parentId: "",
                   dataParent: false,
@@ -152,9 +258,25 @@ export const header__content = {
                   link: "",
                   id: "artclspan_2",
                   ref: "header",
-                  type: "text",
+                  type: "title",
                   element: "span",
-                  class: [],
+                  class: [
+                    {
+                      label: "bolder",
+                      link: "",
+                      id: "c_1",
+                      ref: "header",
+                      type: "class",
+                      element: "className",
+                      class: [],
+                      icon: "",
+                      parentId: "",
+                      dataParent: false,
+                      parts: [],
+                      data: [],
+                      func: null
+                    }
+                  ],
                   icon: "",
                   parentId: "",
                   dataParent: false,
@@ -195,7 +317,7 @@ export const header__content = {
               label: "primary",
               link: "",
               id: "",
-              ref: "weather",
+              ref: "navigation",
               type: "class",
               element: "className",
               icon: "",
@@ -207,11 +329,29 @@ export const header__content = {
           icon: "",
           parentId: "",
           dataParent: false,
-          parts: [],
+          parts: [
+            {
+              label: "Contact",
+              link: "mailto: info@pepersandbeans.be",
+              id: "cntcta_1",
+              ref: "header",
+              type: "link",
+              element: "a",
+              class: [],
+              icon: "",
+              parentId: "",
+              dataParent: false,
+              parts: [],
+              data: [],
+              // function: handleContact.bind(this,)
+              function: null
+            }
+          ],
           data: [],
           // function: handleContact.bind(this,)
           function: null
-        }
+
+        },
       ],
       data: [],
       func: null
@@ -261,24 +401,53 @@ export const footer__content = {
           func: null
         },
         {
-          label: "Frouke Buyse",
-          link: "https://www.facebook.com/profile.php?id=100011123085509",
-          id: "fta_1",
+          label: "",
+          link: "",
+          id: "ftspan_2",
           ref: "footer",
-          type: "link",
-          element: "a",
-          class: [],
+          type: "text",
+          element: "span",
+          class: [
+            {
+              label: "hightlight",
+              link: "",
+              id: "",
+              ref: "footer",
+              type: "class",
+              element: "className",
+              icon: "",
+              parts: [],
+              data: [],
+              function: null
+            }
+          ],
           icon: "",
           parentId: "",
           dataParent: false,
-          parts: [],
+          parts: [
+            {
+              label: "Frouke Buyse",
+              link: "https://www.facebook.com/profile.php?id=100011123085509",
+              id: "fta_1",
+              ref: "footer",
+              type: "link",
+              element: "a",
+              class: [],
+              icon: "",
+              parentId: "",
+              dataParent: false,
+              parts: [],
+              data: [],
+              func: null
+            }
+          ],
           data: [],
           func: null
         },
       ],
       data: [],
       func: null
-    },
+    }, nav_items
   ],
   data: [],
   func: null

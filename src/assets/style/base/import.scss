@@ -5,13 +5,14 @@
 @import "../setup/reset.scss";
 @import "../setup/base.scss";
 
-// @import "../fonts/font.scss";
+@import "../fonts/font.scss";
 
 @import "../supplies/variables.scss";
+
+@import "../components/common/blocks/navigation.scss";
 
 @import "../components/ui/buttons.scss";
 @import "../components/ui/inputs.scss";
 
-// @import "../components/common/blocks/form.scss";
-
+@import "../components/common/header/header.scss";
 @import "../components/common/footer/footer.scss";
