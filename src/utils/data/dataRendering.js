@@ -77,7 +77,7 @@ export function renderElement(item, key) {
     return renderComponent(item, "form" + key, array);
   } else if (item.id.includes("fta") || item.id.includes("cntcta")) {
     return (
-      <item.element key={"element" + key} href={item.link} target="_blank" className={createClass(item)}>
+      <item.element key={"element" + key} href={item.link} target={item.target_blank} className={createClass(item)}>
         {item.label}
       </item.element>
     )

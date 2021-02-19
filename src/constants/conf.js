@@ -1,6 +1,7 @@
 export const nav_items = {
   label: "list",
   link: "",
+  target_blank: "",
   id: "navl_1",
   ref: "navigation",
   type: "list",
@@ -13,6 +14,7 @@ export const nav_items = {
     {
       label: "Services",
       link: "",
+      target_blank: "",
       id: "navli_1",
       ref: "navigation",
       type: "item",
@@ -23,6 +25,7 @@ export const nav_items = {
         {
           label: "Services",
           link: "#services",
+          target_blank: "",
           id: "fta_1",
           ref: "navigation",
           type: "link",
@@ -37,6 +40,7 @@ export const nav_items = {
         }, // {
         //   label: "Services",
         //   link: "",
+        //   target_blank: "",
         //   id: "navlip_1",
         //   ref: "navigation",
         //   type: "itemText",
@@ -53,6 +57,7 @@ export const nav_items = {
     }, {
       label: "Contact",
       link: "",
+      target_blank: "",
       id: "navli_2",
       ref: "navigation",
       type: "item",
@@ -65,6 +70,7 @@ export const nav_items = {
         {
           label: "Contact",
           link: "",
+          target_blank: "",
           id: "b_1",
           ref: "navigation",
           type: "button",
@@ -73,6 +79,7 @@ export const nav_items = {
             {
               label: "primary",
               link: "",
+              target_blank: "",
               id: "",
               ref: "navigation",
               type: "class",
@@ -90,6 +97,7 @@ export const nav_items = {
             {
               label: "Contact",
               link: "mailto: info@pepersandbeans.be",
+              target_blank: "_blank",
               id: "cntcta_1",
               ref: "header",
               type: "link",
@@ -119,6 +127,7 @@ export const nav_items = {
 export const header__content = {
   label: "header",
   link: "",
+  target_blank: "",
   id: "header",
   ref: "header",
   type: "header",
@@ -131,6 +140,7 @@ export const header__content = {
     {
       label: "Peppers & Beans",
       link: "",
+      target_blank: "",
       id: "hddv_1",
       ref: "header",
       type: "div",
@@ -139,6 +149,7 @@ export const header__content = {
         {
           label: "row-cb",
           link: "",
+          target_blank: "",
           id: "",
           ref: "header",
           type: "class",
@@ -156,6 +167,7 @@ export const header__content = {
         {
           label: "Peppers & Beans",
           link: "",
+          target_blank: "",
           id: "h_1",
           ref: "header",
           type: "mainTitle",
@@ -168,6 +180,7 @@ export const header__content = {
             {
               label: "Peppers & Beans",
               link: "",
+              target_blank: "",
               id: "hspan_1",
               ref: "header",
               type: "text",
@@ -190,6 +203,7 @@ export const header__content = {
     }, {
       label: "Header article",
       link: "",
+      target_blank: "",
       id: "hartcl_1",
       ref: "header",
       type: "part",
@@ -202,6 +216,7 @@ export const header__content = {
         {
           label: "Article header",
           link: "",
+          target_blank: "",
           id: "hartclh_1",
           ref: "header",
           type: "articleHeader",
@@ -214,6 +229,7 @@ export const header__content = {
             {
               label: "Article title",
               link: "",
+              target_blank: "",
               id: "h_2",
               ref: "header",
               type: "articleTitle",
@@ -226,6 +242,7 @@ export const header__content = {
                 {
                   label: "Hello",
                   link: "",
+                  target_blank: "",
                   id: "artclspan_1",
                   ref: "header",
                   type: "title",
@@ -234,6 +251,7 @@ export const header__content = {
                     {
                       label: "lighter",
                       link: "",
+                      target_blank: "",
                       id: "c_1",
                       ref: "header",
                       type: "class",
@@ -256,6 +274,7 @@ export const header__content = {
                 }, {
                   label: "We are here to help.",
                   link: "",
+                  target_blank: "",
                   id: "artclspan_2",
                   ref: "header",
                   type: "title",
@@ -264,6 +283,7 @@ export const header__content = {
                     {
                       label: "bolder",
                       link: "",
+                      target_blank: "",
                       id: "c_1",
                       ref: "header",
                       type: "class",
@@ -294,6 +314,7 @@ export const header__content = {
         }, {
           label: "Want some assistance over a cup of coffee? Need to spice up your website? Or having a coding challenge? We are happy to assist you.",
           link: "",
+          target_blank: "",
           id: "artclp_1",
           ref: "header",
           type: "text",
@@ -308,6 +329,7 @@ export const header__content = {
         }, {
           label: "Contact",
           link: "",
+          target_blank: "",
           id: "b_1",
           ref: "navigation",
           type: "button",
@@ -316,6 +338,7 @@ export const header__content = {
             {
               label: "primary",
               link: "",
+              target_blank: "",
               id: "",
               ref: "navigation",
               type: "class",
@@ -333,6 +356,7 @@ export const header__content = {
             {
               label: "Contact",
               link: "mailto: info@pepersandbeans.be",
+              target_blank: "_blank",
               id: "cntcta_1",
               ref: "header",
               type: "link",
@@ -364,6 +388,7 @@ export const header__content = {
 export const footer__content = {
   label: "footer",
   link: "",
+  target_blank: "",
   id: "footer",
   ref: "footer",
   type: "footer",
@@ -376,6 +401,7 @@ export const footer__content = {
     {
       label: "Peppers & Beans",
       link: "",
+      target_blank: "",
       id: "ftp_1",
       ref: "footer",
       type: "text",
@@ -388,6 +414,7 @@ export const footer__content = {
         {
           label: "© Copyright 2021, Peppers & Beans by",
           link: "",
+          target_blank: "",
           id: "ftspan_1",
           ref: "footer",
           type: "text",
@@ -403,6 +430,7 @@ export const footer__content = {
         {
           label: "",
           link: "",
+          target_blank: "",
           id: "ftspan_2",
           ref: "footer",
           type: "text",
@@ -411,6 +439,7 @@ export const footer__content = {
             {
               label: "hightlight",
               link: "",
+              target_blank: "",
               id: "",
               ref: "footer",
               type: "class",
@@ -428,6 +457,7 @@ export const footer__content = {
             {
               label: "Frouke Buyse",
               link: "https://www.facebook.com/profile.php?id=100011123085509",
+              target_blank: "_blank",
               id: "fta_1",
               ref: "footer",
               type: "link",
