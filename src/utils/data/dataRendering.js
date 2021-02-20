@@ -18,6 +18,7 @@ import Groupdescription from "../../components/common/blocks/list/GroupDescripti
 import TextItem from "../../components/common/elements/list/TextItem";
 import CustomBoxInput from "../../components/ui/groups/CustomBoxInput";
 import Button from "../../components/ui/buttons/Button";
+import Img from '../../components/ui/Img';
 
 // render data
 export function renderElementItems(array) {
@@ -38,7 +39,10 @@ export function renderElementItems(array) {
     } else if (item.parts.length > 0) {
       // Nested DOM
       todo = (
-        <item.element key={i} className={createClass(item)}>
+        <item.element
+          key={i}
+          className={createClass(item)}
+        >
           {renderElementItems(item.parts)}
         </item.element>
       );
@@ -49,7 +53,8 @@ export function renderElementItems(array) {
         item.type === "term" ||
         item.type === "textItem" ||
         item.type === "button" ||
-        item.type === "customBoxInput"
+        item.type === "customBoxInput" ||
+        item.type === "img"
       ) {
         return renderComponent(item, i, null);
       } else {
@@ -75,9 +80,13 @@ export function renderElement(item, key) {
     );
 
     return renderComponent(item, "form" + key, array);
-  } else if (item.id.includes("fta") || item.id.includes("cntcta")) {
+  } else if (item.id.includes("fta") || item.id.includes("cntcta") || item.id.includes("nava")) {
     return (
-      <item.element key={"element" + key} href={item.link} target={item.target_blank} className={createClass(item)}>
+      <item.element
+        key={"element" + key}
+        className={createClass(item)}
+        href={item.link} target={item.target_blank}
+      >
         {item.label}
       </item.element>
     )
@@ -90,11 +99,20 @@ export function renderElement(item, key) {
       );
     }
   } else {
-    return (
-      <item.element key={"element" + key} className={createClass(item)}>
-        {item.label}
-      </item.element>
-    );
+    if (
+      item.type === "img"
+    ) {
+      return renderComponent(item, item.id, null);
+    } else {
+      return (
+        <item.element
+          key={"element" + key}
+          className={createClass(item)}
+        >
+          {item.label}
+        </item.element>
+      );
+    }
   }
 }
 
@@ -121,12 +139,28 @@ export function renderComponent(item, key, array, load) {
         />
       );
     case "form":
-      return <Form key={key} array={array} class={createClass(item)} />;
+      return (
+        <Form
+          key={key}
+          class={createClass(item)}
+          array={array}
+        />
+      );
     case "term":
-      return <Term key={key} item={item} class={createClass(item)} />;
+      return (
+        <Term
+          key={key}
+          class={createClass(item)}
+          item={item}
+        />
+      );
     case "description":
       return (
-        <Textdescription key={key} item={item} class={createClass(item)} />
+        <Textdescription
+          key={key}
+          class={createClass(item)}
+          item={item}
+        />
       );
     case "description_group":
       return (
@@ -150,14 +184,28 @@ export function renderComponent(item, key, array, load) {
         />
       );
     case "item":
-      return <TextItem key={key} item={item} class={createClass(item)} />;
+      return (
+        <TextItem
+          key={key}
+          class={createClass(item)}
+          item={item}
+        />
+      );
+    case "img":
+      return (
+        <Img
+          key={key}
+          class={createClass(item)}
+          item={item}
+        />
+      )
     case "button":
       return (
         <Button
           key={key}
+          class={createClass(item)}
           item={item}
           label={item.label}
-          class={createClass(item)}
           onClick={item.function}
         />
       );

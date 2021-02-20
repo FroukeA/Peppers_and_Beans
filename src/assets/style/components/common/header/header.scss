@@ -1,5 +1,5 @@
 /* *** LAYOUT *** */
-.header__div--row-cb {
+.header__div--row-bc {
   @include row;
   @include between_center;
 }
@@ -9,7 +9,7 @@
 }
 
 .header__articleTitle {
-  @include column
+  @include column;
 }
 
 .header__text {
@@ -27,28 +27,6 @@
   background-position: bottom right;
 
   padding-bottom: 8rem;
-}
-
-.main {
-  position: relative;
-
-  padding-top: 23.8rem;
-}
-
-.main::after {
-  content: '';
-
-  background-image: url("../../../../static/svg/header_shape.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  position: absolute;
-
-  top: -48px;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 24rem;
 }
 
 .header__mainTitle {

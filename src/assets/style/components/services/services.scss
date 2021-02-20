@@ -1,0 +1,109 @@
+/* *** LAYOUT *** */
+.services__sectionHeader {
+  @include row;
+  @include end-center;
+}
+
+.services__sectionTitle--hightlight {
+  position: relative;
+
+  padding-right: 30.4rem;
+  
+  z-index: 0;
+}
+
+.services__part--webdev, 
+.services__part--devsup, 
+.services__part--itsup {
+  @include column;
+
+  width: 100%;
+
+  padding:4.8rem;
+}
+
+.services__articleDiv--smaller {
+  @include column;
+  @include center-center;
+
+  width: 56vw;
+
+  // align-self: flex-end;
+}
+
+.services__articleDiv--right {
+  align-self: flex-end;
+}
+
+.services__list--row-bc {
+  @include row;
+  @include between_center;
+}
+
+.services__list--wider {
+  width: 100%;
+}
+
+.services__button--primary-middle {
+  @include middle;
+}
+
+/* *** MODULE *** */
+.services__part--webdev {
+  background-image: url("../../../static/svg/webdevelopment.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+
+  background-size: 600px auto;
+}
+
+.services__part--devsup {
+  background-image: url("../../../static/svg/developmentSupport.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+
+  background-size: 600px auto;
+}
+
+.services__part--itsup {
+  background-image: url("../../../static/svg/itSupport.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+
+  background-size: 600px auto;
+}
+
+.services__sectionTitle--hightlight::before {
+  content: "";
+
+  height: 38px;
+
+  position: absolute;
+
+  background-image: url("../../../static/svg/highlight.svg");
+  background-repeat: no-repeat;
+  // background-size: cover;
+
+  top:-16px;
+  left: -38px;
+  right: 0;
+
+  // bottom: 0;
+  z-index: -1;  
+}
+
+.services__title--lighter {
+  font-family: 'Source Serif Pro';
+}
+
+.services__item--tag {
+  border-radius: 22px;
+  padding: 1rem 2rem;
+
+  background-color: $primary-color1;
+  color: $brand-color1; 
+}
+
+/* *** STATE *** */
+
+/* *** KEYFRAME *** */

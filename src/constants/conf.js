@@ -1,3 +1,5 @@
+import visualWeb from '../assets/static/svg/webdevelopment2.svg';
+
 export const nav_items = {
   label: "list",
   link: "",
@@ -26,7 +28,7 @@ export const nav_items = {
           label: "Services",
           link: "#services",
           target_blank: "",
-          id: "fta_1",
+          id: "nava_1",
           ref: "navigation",
           type: "link",
           element: "a",
@@ -80,7 +82,7 @@ export const nav_items = {
               label: "primary",
               link: "",
               target_blank: "",
-              id: "",
+              id: "c_1",
               ref: "navigation",
               type: "class",
               element: "className",
@@ -147,10 +149,10 @@ export const header__content = {
       element: "div",
       class: [
         {
-          label: "row-cb",
+          label: "row-bc",
           link: "",
           target_blank: "",
-          id: "",
+          id: "c_2",
           ref: "header",
           type: "class",
           element: "className",
@@ -252,7 +254,7 @@ export const header__content = {
                       label: "lighter",
                       link: "",
                       target_blank: "",
-                      id: "c_1",
+                      id: "c_3",
                       ref: "header",
                       type: "class",
                       element: "className",
@@ -272,7 +274,7 @@ export const header__content = {
                   data: [],
                   func: null
                 }, {
-                  label: "We are here to help.",
+                  label: "We are here for YOU.",
                   link: "",
                   target_blank: "",
                   id: "artclspan_2",
@@ -284,7 +286,7 @@ export const header__content = {
                       label: "bolder",
                       link: "",
                       target_blank: "",
-                      id: "c_1",
+                      id: "c_4",
                       ref: "header",
                       type: "class",
                       element: "className",
@@ -331,7 +333,7 @@ export const header__content = {
           link: "",
           target_blank: "",
           id: "b_1",
-          ref: "navigation",
+          ref: "header",
           type: "button",
           element: "button",
           class: [
@@ -339,8 +341,8 @@ export const header__content = {
               label: "primary",
               link: "",
               target_blank: "",
-              id: "",
-              ref: "navigation",
+              id: "c_1",
+              ref: "header",
               type: "class",
               element: "className",
               icon: "",
@@ -440,7 +442,7 @@ export const footer__content = {
               label: "hightlight",
               link: "",
               target_blank: "",
-              id: "",
+              id: "c_5",
               ref: "footer",
               type: "class",
               element: "className",
@@ -478,6 +480,1483 @@ export const footer__content = {
       data: [],
       func: null
     }, nav_items
+  ],
+  data: [],
+  func: null
+}
+
+export const services__content = {
+  label: "services",
+  link: "",
+  target_blank: "",
+  id: "services",
+  ref: "services",
+  type: "section",
+  element: "",
+  class: [],
+  icon: "",
+  parentId: "",
+  dataParent: false,
+  parts: [
+    {
+      label: "Section header",
+      link: "",
+      target_blank: "",
+      id: "ssctnh_1",
+      ref: "services",
+      type: "sectionHeader",
+      element: "header",
+      class: [],
+      icon: "",
+      parentId: "",
+      dataParent: false,
+      parts: [
+        {
+          label: "Section title",
+          link: "",
+          target_blank: "",
+          id: "h_3",
+          ref: "services",
+          type: "sectionTitle",
+          element: "h2",
+          class: [
+            {
+              label: "hightlight",
+              link: "",
+              target_blank: "",
+              id: "c_5",
+              ref: "header",
+              type: "class",
+              element: "className",
+              icon: "",
+              parts: [],
+              data: [],
+              function: null
+            }
+          ],
+          icon: "",
+          parentId: "",
+          dataParent: false,
+          parts: [
+            {
+              label: "Services",
+              link: "",
+              target_blank: "",
+              id: "sectionspan_2",
+              ref: "services",
+              type: "title",
+              element: "span",
+              class: [
+                {
+                  label: "bolder",
+                  link: "",
+                  target_blank: "",
+                  id: "c_4",
+                  ref: "header",
+                  type: "class",
+                  element: "className",
+                  class: [],
+                  icon: "",
+                  parentId: "",
+                  dataParent: false,
+                  parts: [],
+                  data: [],
+                  func: null
+                },
+              ],
+              icon: "",
+              parentId: "",
+              dataParent: false,
+              parts: [],
+              data: [],
+              func: null
+            },
+          ],
+          data: [],
+          func: null
+        }
+      ],
+      data: [],
+      func: null
+    }, {
+      label: "Section article",
+      link: "",
+      target_blank: "",
+      id: "sartcl_1",
+      ref: "services",
+      type: "part",
+      element: "article",
+      class: [
+        {
+          label: "webdev",
+          link: "",
+          target_blank: "",
+          id: "c_7",
+          ref: "header",
+          type: "class",
+          element: "className",
+          icon: "",
+          parts: [],
+          data: [],
+          function: null
+        }
+      ],
+      icon: "",
+      parentId: "",
+      dataParent: false,
+      parts: [
+        {
+          label: "Article content",
+          link: "",
+          target_blank: "",
+          id: "adv_1",
+          ref: "services",
+          type: "articleDiv",
+          element: "div",
+          class: [
+            {
+              label: "smaller",
+              link: "",
+              target_blank: "",
+              id: "c_8",
+              ref: "services",
+              type: "class",
+              element: "className",
+              icon: "",
+              parts: [],
+              data: [],
+              function: null
+            }
+          ],
+          icon: "",
+          parentId: "",
+          dataParent: false,
+          parts: [
+            {
+              label: "Article header",
+              link: "",
+              target_blank: "",
+              id: "sartclh_1",
+              ref: "services",
+              type: "articleHeader",
+              element: "header",
+              class: [],
+              icon: "",
+              parentId: "",
+              dataParent: false,
+              parts: [
+                {
+                  label: "Article title",
+                  link: "",
+                  target_blank: "",
+                  id: "h_4",
+                  ref: "services",
+                  type: "articleTitle",
+                  element: "h3",
+                  class: [],
+                  icon: "",
+                  parentId: "",
+                  dataParent: false,
+                  parts: [
+                    {
+                      label: "Webdevelopment",
+                      link: "",
+                      target_blank: "",
+                      id: "artclspan_2",
+                      ref: "services",
+                      type: "title",
+                      element: "span",
+                      class: [
+                        {
+                          label: "lighter",
+                          link: "",
+                          target_blank: "",
+                          id: "c_3",
+                          ref: "services",
+                          type: "class",
+                          element: "className",
+                          class: [],
+                          icon: "",
+                          parentId: "",
+                          dataParent: false,
+                          parts: [],
+                          data: [],
+                          func: null
+                        }
+                      ],
+                      icon: "",
+                      parentId: "",
+                      dataParent: false,
+                      parts: [],
+                      data: [],
+                      func: null
+                    }
+                  ],
+                  data: [],
+                  func: null
+                }
+              ],
+              data: [],
+              func: null
+            }, {
+              label: "Project list",
+              link: "",
+              target_blank: "",
+              id: "artcll_1",
+              ref: "services",
+              type: "list",
+              element: "ul",
+              class: [
+                {
+                  label: "row-bc",
+                  link: "",
+                  target_blank: "",
+                  id: "c_2",
+                  ref: "services",
+                  type: "class",
+                  element: "className",
+                  icon: "",
+                  parts: [],
+                  data: [],
+                  function: null
+                }, {
+                  label: "wider",
+                  link: "",
+                  target_blank: "",
+                  id: "c_8",
+                  ref: "services",
+                  type: "class",
+                  element: "className",
+                  icon: "",
+                  parts: [],
+                  data: [],
+                  function: null
+                },
+              ],
+              icon: "",
+              parentId: "",
+              dataParent: false,
+              parts: [
+                {
+                  label: "Project",
+                  link: "",
+                  target_blank: "",
+                  id: "artclli_1",
+                  ref: "services",
+                  type: "item",
+                  element: "li",
+                  class: [],
+                  icon: "",
+                  parts: [
+                    {
+                      label: "Project article",
+                      link: "",
+                      target_blank: "",
+                      id: "partcl_1",
+                      ref: "services",
+                      type: "part",
+                      element: "article",
+                      class: [],
+                      icon: "",
+                      parentId: "",
+                      dataParent: false,
+                      parts: [
+                        {
+                          label: "Article header",
+                          link: "",
+                          target_blank: "",
+                          id: "artclh_1",
+                          ref: "services",
+                          type: "articleHeader",
+                          element: "header",
+                          class: [],
+                          icon: "",
+                          parentId: "",
+                          dataParent: false,
+                          parts: [
+                            {
+                              label: "Article title",
+                              link: "",
+                              target_blank: "",
+                              id: "h_5",
+                              ref: "services",
+                              type: "articleTitle",
+                              element: "h4",
+                              class: [],
+                              icon: "",
+                              parentId: "",
+                              dataParent: false,
+                              parts: [
+                                {
+                                  label: "Project 1",
+                                  link: "",
+                                  target_blank: "",
+                                  id: "artclspan_3",
+                                  ref: "services",
+                                  type: "title",
+                                  element: "span",
+                                  class: [],
+                                  icon: "",
+                                  parentId: "",
+                                  dataParent: false,
+                                  parts: [],
+                                  data: [],
+                                  func: null
+                                }
+                              ],
+                              data: [],
+                              func: null
+                            },
+                          ],
+                          data: [],
+                          func: null
+                        }, {
+                          label: "webdevelopment img",
+                          link: "",
+                          target_blank: "",
+                          id: "img_1",
+                          ref: "services",
+                          type: "img",
+                          element: "img",
+                          class: [],
+                          icon: visualWeb,
+                          parts: [],
+                          data: [],
+                          function: null
+                        }, {
+                          label: "Tag list",
+                          link: "",
+                          target_blank: "",
+                          id: "artcll_2",
+                          ref: "services",
+                          type: "list",
+                          element: "ul",
+                          class: [
+                            {
+                              label: "row-bc",
+                              link: "",
+                              target_blank: "",
+                              id: "c_2",
+                              ref: "services",
+                              type: "class",
+                              element: "className",
+                              icon: "",
+                              parts: [],
+                              data: [],
+                              function: null
+                            }
+                          ],
+                          icon: "",
+                          parentId: "",
+                          dataParent: false,
+                          parts: [
+                            {
+                              label: "Tag",
+                              link: "",
+                              target_blank: "",
+                              id: "artclli_4",
+                              ref: "services",
+                              type: "item",
+                              element: "li",
+                              class: [
+                                {
+                                  label: "tag",
+                                  link: "",
+                                  target_blank: "",
+                                  id: "c_6",
+                                  ref: "services",
+                                  type: "class",
+                                  element: "className",
+                                  class: [],
+                                  icon: "",
+                                  parentId: "",
+                                  dataParent: false,
+                                  parts: [],
+                                  data: [],
+                                  func: null
+                                },
+                              ],
+                              icon: "",
+                              parts: [],
+                              data: [],
+                              function: null
+                            }, {
+                              label: "Tag",
+                              link: "",
+                              target_blank: "",
+                              id: "artclli_4",
+                              ref: "services",
+                              type: "item",
+                              element: "li",
+                              class: [{
+                                label: "tag",
+                                link: "",
+                                target_blank: "",
+                                id: "c_6",
+                                ref: "services",
+                                type: "class",
+                                element: "className",
+                                class: [],
+                                icon: "",
+                                parentId: "",
+                                dataParent: false,
+                                parts: [],
+                                data: [],
+                                func: null
+                              },],
+                              icon: "",
+                              parts: [],
+                              data: [],
+                              function: null
+                            }, {
+                              label: "Tag",
+                              link: "",
+                              target_blank: "",
+                              id: "artclli_4",
+                              ref: "services",
+                              type: "item",
+                              element: "li",
+                              class: [{
+                                label: "tag",
+                                link: "",
+                                target_blank: "",
+                                id: "c_6",
+                                ref: "services",
+                                type: "class",
+                                element: "className",
+                                class: [],
+                                icon: "",
+                                parentId: "",
+                                dataParent: false,
+                                parts: [],
+                                data: [],
+                                func: null
+                              },],
+                              icon: "",
+                              parts: [],
+                              data: [],
+                              function: null
+                            }],
+                          data: [],
+                          function: null
+                        }
+                      ],
+                      data: [],
+                      function: null
+                    }
+                  ],
+                  data: [],
+                  function: null
+                }, {
+                  label: "Project",
+                  link: "",
+                  target_blank: "",
+                  id: "artclli_2",
+                  ref: "services",
+                  type: "item",
+                  element: "li",
+                  class: [],
+                  icon: "",
+                  parts: [
+                    {
+                      label: "Project article",
+                      link: "",
+                      target_blank: "",
+                      id: "partcl_2",
+                      ref: "services",
+                      type: "part",
+                      element: "article",
+                      class: [],
+                      icon: "",
+                      parentId: "",
+                      dataParent: false,
+                      parts: [
+                        {
+                          label: "Article",
+                          link: "",
+                          target_blank: "",
+                          id: "artclh_2",
+                          ref: "services",
+                          type: "articleHeader",
+                          element: "header",
+                          class: [],
+                          icon: "",
+                          parentId: "",
+                          dataParent: false,
+                          parts: [
+                            {
+                              label: "Article title",
+                              link: "",
+                              target_blank: "",
+                              id: "h_5",
+                              ref: "services",
+                              type: "articleTitle",
+                              element: "h4",
+                              class: [],
+                              icon: "",
+                              parentId: "",
+                              dataParent: false,
+                              parts: [
+                                {
+                                  label: "Project 2",
+                                  link: "",
+                                  target_blank: "",
+                                  id: "artclspan_3",
+                                  ref: "services",
+                                  type: "title",
+                                  element: "span",
+                                  class: [],
+                                  icon: "",
+                                  parentId: "",
+                                  dataParent: false,
+                                  parts: [],
+                                  data: [],
+                                  func: null
+                                }
+                              ],
+                              data: [],
+                              func: null
+                            },
+                          ],
+                          data: [],
+                          func: null
+                        }, {
+                          label: "Tag list",
+                          link: "",
+                          target_blank: "",
+                          id: "artcll_3",
+                          ref: "services",
+                          type: "list",
+                          element: "ul",
+                          class: [
+                            {
+                              label: "row-bc",
+                              link: "",
+                              target_blank: "",
+                              id: "c_2",
+                              ref: "header",
+                              type: "class",
+                              element: "className",
+                              icon: "",
+                              parts: [],
+                              data: [],
+                              function: null
+                            }
+                          ],
+                          icon: "",
+                          parentId: "",
+                          dataParent: false,
+                          parts: [
+                            {
+                              label: "Tag",
+                              link: "",
+                              target_blank: "",
+                              id: "artclli_4",
+                              ref: "services",
+                              type: "item",
+                              element: "li",
+                              class: [{
+                                label: "tag",
+                                link: "",
+                                target_blank: "",
+                                id: "c_6",
+                                ref: "header",
+                                type: "class",
+                                element: "className",
+                                class: [],
+                                icon: "",
+                                parentId: "",
+                                dataParent: false,
+                                parts: [],
+                                data: [],
+                                func: null
+                              },],
+                              icon: "",
+                              parts: [],
+                              data: [],
+                              function: null
+                            }, {
+                              label: "Tag",
+                              link: "",
+                              target_blank: "",
+                              id: "artclli_4",
+                              ref: "services",
+                              type: "item",
+                              element: "li",
+                              class: [
+                                {
+                                  label: "tag",
+                                  link: "",
+                                  target_blank: "",
+                                  id: "c_6",
+                                  ref: "services",
+                                  type: "class",
+                                  element: "className",
+                                  class: [],
+                                  icon: "",
+                                  parentId: "",
+                                  dataParent: false,
+                                  parts: [],
+                                  data: [],
+                                  func: null
+                                },
+                              ],
+                              icon: "",
+                              parts: [],
+                              data: [],
+                              function: null
+                            }, {
+                              label: "Tag",
+                              link: "",
+                              target_blank: "",
+                              id: "artclli_4",
+                              ref: "services",
+                              type: "item",
+                              element: "li",
+                              class: [
+                                {
+                                  label: "tag",
+                                  link: "",
+                                  target_blank: "",
+                                  id: "c_6",
+                                  ref: "services",
+                                  type: "class",
+                                  element: "className",
+                                  class: [],
+                                  icon: "",
+                                  parentId: "",
+                                  dataParent: false,
+                                  parts: [],
+                                  data: [],
+                                  func: null
+                                },
+                              ],
+                              icon: "",
+                              parts: [],
+                              data: [],
+                              function: null
+                            }],
+                          data: [],
+                          function: null
+                        }
+                      ],
+                      data: [],
+                      function: null
+                    }
+                  ],
+                  data: [],
+                  function: null
+                }, {
+                  label: "Project",
+                  link: "",
+                  target_blank: "",
+                  id: "artclli_3",
+                  ref: "services",
+                  type: "item",
+                  element: "li",
+                  class: [],
+                  icon: "",
+                  parts: [
+                    {
+                      label: "Project article",
+                      link: "",
+                      target_blank: "",
+                      id: "partcl_3",
+                      ref: "services",
+                      type: "part",
+                      element: "article",
+                      class: [],
+                      icon: "",
+                      parentId: "",
+                      dataParent: false,
+                      parts: [
+                        {
+                          label: "Article",
+                          link: "",
+                          target_blank: "",
+                          id: "artclh_3",
+                          ref: "services",
+                          type: "articleHeader",
+                          element: "header",
+                          class: [],
+                          icon: "",
+                          parentId: "",
+                          dataParent: false,
+                          parts: [
+                            {
+                              label: "Article title",
+                              link: "",
+                              target_blank: "",
+                              id: "h_5",
+                              ref: "services",
+                              type: "articleTitle",
+                              element: "h4",
+                              class: [],
+                              icon: "",
+                              parentId: "",
+                              dataParent: false,
+                              parts: [
+                                {
+                                  label: "Project 3",
+                                  link: "",
+                                  target_blank: "",
+                                  id: "artclspan_3",
+                                  ref: "services",
+                                  type: "title",
+                                  element: "span",
+                                  class: [],
+                                  icon: "",
+                                  parentId: "",
+                                  dataParent: false,
+                                  parts: [],
+                                  data: [],
+                                  func: null
+                                }
+                              ],
+                              data: [],
+                              func: null
+                            },
+                          ],
+                          data: [],
+                          func: null
+                        }, {
+                          label: "Tag list",
+                          link: "",
+                          target_blank: "",
+                          id: "artcll_4",
+                          ref: "services",
+                          type: "list",
+                          element: "ul",
+                          class: [
+                            {
+                              label: "row-bc",
+                              link: "",
+                              target_blank: "",
+                              id: "c_2",
+                              ref: "header",
+                              type: "class",
+                              element: "className",
+                              icon: "",
+                              parts: [],
+                              data: [],
+                              function: null
+                            }
+                          ],
+                          icon: "",
+                          parentId: "",
+                          dataParent: false,
+                          parts: [
+                            {
+                              label: "Tag",
+                              link: "",
+                              target_blank: "",
+                              id: "artclli_8",
+                              ref: "services",
+                              type: "item",
+                              element: "li",
+                              class: [
+                                {
+                                  label: "tag",
+                                  link: "",
+                                  target_blank: "",
+                                  id: "c_6",
+                                  ref: "services",
+                                  type: "class",
+                                  element: "className",
+                                  class: [],
+                                  icon: "",
+                                  parentId: "",
+                                  dataParent: false,
+                                  parts: [],
+                                  data: [],
+                                  func: null
+                                },
+                              ],
+                              icon: "",
+                              parts: [],
+                              data: [],
+                              function: null
+                            }, {
+                              label: "Tag",
+                              link: "",
+                              target_blank: "",
+                              id: "artclli_9",
+                              ref: "services",
+                              type: "item",
+                              element: "li",
+                              class: [
+                                {
+                                  label: "tag",
+                                  link: "",
+                                  target_blank: "",
+                                  id: "c_6",
+                                  ref: "services",
+                                  type: "class",
+                                  element: "className",
+                                  class: [],
+                                  icon: "",
+                                  parentId: "",
+                                  dataParent: false,
+                                  parts: [],
+                                  data: [],
+                                  func: null
+                                },
+                              ],
+                              icon: "",
+                              parts: [],
+                              data: [],
+                              function: null
+                            }, {
+                              label: "Tag",
+                              link: "",
+                              target_blank: "",
+                              id: "artclli_10",
+                              ref: "services",
+                              type: "item",
+                              element: "li",
+                              class: [
+                                {
+                                  label: "tag",
+                                  link: "",
+                                  target_blank: "",
+                                  id: "c_6",
+                                  ref: "services",
+                                  type: "class",
+                                  element: "className",
+                                  class: [],
+                                  icon: "",
+                                  parentId: "",
+                                  dataParent: false,
+                                  parts: [],
+                                  data: [],
+                                  func: null
+                                },
+                              ],
+                              icon: "",
+                              parts: [],
+                              data: [],
+                              function: null
+                            }],
+                          data: [],
+                          function: null
+                        }
+                      ],
+                      data: [],
+                      function: null
+                    }
+                  ],
+                  data: [],
+                  function: null
+                }
+              ],
+              data: [],
+              func: null
+            }, {
+              label: "Contact",
+              link: "",
+              target_blank: "",
+              id: "b_1",
+              ref: "services",
+              type: "button",
+              element: "button",
+              class: [
+                {
+                  label: "primary-middle",
+                  link: "",
+                  target_blank: "",
+                  id: "c_1",
+                  ref: "services",
+                  type: "class",
+                  element: "className",
+                  icon: "",
+                  parts: [],
+                  data: [],
+                  function: null
+                }
+              ],
+              icon: "",
+              parentId: "",
+              dataParent: false,
+              parts: [
+                {
+                  label: "Contact",
+                  link: "mailto: info@pepersandbeans.be",
+                  target_blank: "_blank",
+                  id: "cntcta_1",
+                  ref: "services",
+                  type: "link",
+                  element: "a",
+                  class: [],
+                  icon: "",
+                  parentId: "",
+                  dataParent: false,
+                  parts: [],
+                  data: [],
+                  // function: handleContact.bind(this,)
+                  function: null
+                }
+              ],
+              data: [],
+              // function: handleContact.bind(this,)
+              function: null
+
+            },
+          ],
+          data: [],
+          func: null
+        },
+      ],
+      data: [],
+      func: null
+    }, {
+      label: "Section article",
+      link: "",
+      target_blank: "",
+      id: "sartcl_2",
+      ref: "services",
+      type: "part",
+      element: "article",
+      class: [
+        {
+          label: "devsup",
+          link: "",
+          target_blank: "",
+          id: "c_7",
+          ref: "header",
+          type: "class",
+          element: "className",
+          icon: "",
+          parts: [],
+          data: [],
+          function: null
+        }
+      ],
+      icon: "",
+      parentId: "",
+      dataParent: false,
+      parts: [
+        {
+          label: "Article content",
+          link: "",
+          target_blank: "",
+          id: "adv_1",
+          ref: "services",
+          type: "articleDiv",
+          element: "div",
+          class: [
+            {
+              label: "smaller",
+              link: "",
+              target_blank: "",
+              id: "c_8",
+              ref: "services",
+              type: "class",
+              element: "className",
+              icon: "",
+              parts: [],
+              data: [],
+              function: null
+            }, {
+              label: "right",
+              link: "",
+              target_blank: "",
+              id: "c_9",
+              ref: "services",
+              type: "class",
+              element: "className",
+              icon: "",
+              parts: [],
+              data: [],
+              function: null
+            }
+          ],
+          icon: "",
+          parentId: "",
+          dataParent: false,
+          parts: [
+            {
+              label: "Article header",
+              link: "",
+              target_blank: "",
+              id: "sartclh_1",
+              ref: "services",
+              type: "articleHeader",
+              element: "header",
+              class: [],
+              icon: "",
+              parentId: "",
+              dataParent: false,
+              parts: [
+                {
+                  label: "Article title",
+                  link: "",
+                  target_blank: "",
+                  id: "h_4",
+                  ref: "services",
+                  type: "articleTitle",
+                  element: "h3",
+                  class: [],
+                  icon: "",
+                  parentId: "",
+                  dataParent: false,
+                  parts: [
+                    {
+                      label: "Development support",
+                      link: "",
+                      target_blank: "",
+                      id: "artclspan_2",
+                      ref: "services",
+                      type: "title",
+                      element: "span",
+                      class: [
+                        {
+                          label: "lighter",
+                          link: "",
+                          target_blank: "",
+                          id: "c_3",
+                          ref: "services",
+                          type: "class",
+                          element: "className",
+                          class: [],
+                          icon: "",
+                          parentId: "",
+                          dataParent: false,
+                          parts: [],
+                          data: [],
+                          func: null
+                        }
+                      ],
+                      icon: "",
+                      parentId: "",
+                      dataParent: false,
+                      parts: [],
+                      data: [],
+                      func: null
+                    }
+                  ],
+                  data: [],
+                  func: null
+                }
+              ],
+              data: [],
+              func: null
+            }, {
+              label: "We are here to help with:",
+              link: "",
+              target_blank: "",
+              id: "artclp_2",
+              ref: "services",
+              type: "itemText",
+              element: "p",
+              class: [],
+              icon: "",
+              parts: [],
+              data: [],
+              function: null
+            }, {
+              label: "Type of service list",
+              link: "",
+              target_blank: "",
+              id: "artcll_3",
+              ref: "services",
+              type: "list",
+              element: "ul",
+              class: [],
+              icon: "",
+              parentId: "",
+              dataParent: false,
+              parts: [
+                {
+                  label: "Service 1",
+                  link: "",
+                  target_blank: "",
+                  id: "artclli_4",
+                  ref: "services",
+                  type: "item",
+                  element: "li",
+                  class: [],
+                  icon: "",
+                  parentId: "",
+                  dataParent: false,
+                  parts: [],
+                  data: [],
+                  function: null
+                }, {
+                  label: "Service 2",
+                  link: "",
+                  target_blank: "",
+                  id: "artclli_4",
+                  ref: "services",
+                  type: "item",
+                  element: "li",
+                  class: [],
+                  icon: "",
+                  parentId: "",
+                  dataParent: false,
+                  parts: [],
+                  data: [],
+                  function: null
+                }, {
+                  label: "Service 3",
+                  link: "",
+                  target_blank: "",
+                  id: "artclli_4",
+                  ref: "services",
+                  type: "item",
+                  element: "li",
+                  class: [],
+                  icon: "",
+                  parentId: "",
+                  dataParent: false,
+                  parts: [],
+                  data: [],
+                  function: null
+                }, , {
+                  label: "...",
+                  link: "",
+                  target_blank: "",
+                  id: "artclli_4",
+                  ref: "services",
+                  type: "item",
+                  element: "li",
+                  class: [],
+                  icon: "",
+                  parentId: "",
+                  dataParent: false,
+                  parts: [],
+                  data: [],
+                  function: null
+                }
+              ],
+              data: [],
+              function: null
+            },
+            {
+              label: "Contact",
+              link: "",
+              target_blank: "",
+              id: "b_1",
+              ref: "services",
+              type: "button",
+              element: "button",
+              class: [
+                {
+                  label: "primary-middle",
+                  link: "",
+                  target_blank: "",
+                  id: "c_1",
+                  ref: "services",
+                  type: "class",
+                  element: "className",
+                  icon: "",
+                  parts: [],
+                  data: [],
+                  function: null
+                }
+              ],
+              icon: "",
+              parentId: "",
+              dataParent: false,
+              parts: [
+                {
+                  label: "Contact",
+                  link: "mailto: info@pepersandbeans.be",
+                  target_blank: "_blank",
+                  id: "cntcta_1",
+                  ref: "services",
+                  type: "link",
+                  element: "a",
+                  class: [],
+                  icon: "",
+                  parentId: "",
+                  dataParent: false,
+                  parts: [],
+                  data: [],
+                  // function: handleContact.bind(this,)
+                  function: null
+                }
+              ],
+              data: [],
+              // function: handleContact.bind(this,)
+              function: null
+
+            },
+          ],
+          data: [],
+          func: null
+        },
+      ],
+      data: [],
+      func: null
+    }, {
+      label: "Section article",
+      link: "",
+      target_blank: "",
+      id: "sartcl_3",
+      ref: "services",
+      type: "part",
+      element: "article",
+      class: [
+        {
+          label: "itsup",
+          link: "",
+          target_blank: "",
+          id: "c_7",
+          ref: "header",
+          type: "class",
+          element: "className",
+          icon: "",
+          parts: [],
+          data: [],
+          function: null
+        }
+      ],
+      icon: "",
+      parentId: "",
+      dataParent: false,
+      parts: [
+        {
+          label: "Article content",
+          link: "",
+          target_blank: "",
+          id: "adv_1",
+          ref: "services",
+          type: "articleDiv",
+          element: "div",
+          class: [
+            {
+              label: "smaller",
+              link: "",
+              target_blank: "",
+              id: "c_8",
+              ref: "services",
+              type: "class",
+              element: "className",
+              icon: "",
+              parts: [],
+              data: [],
+              function: null
+            }
+          ],
+          icon: "",
+          parentId: "",
+          dataParent: false,
+          parts: [
+            {
+              label: "Article header",
+              link: "",
+              target_blank: "",
+              id: "sartclh_1",
+              ref: "services",
+              type: "articleHeader",
+              element: "header",
+              class: [],
+              icon: "",
+              parentId: "",
+              dataParent: false,
+              parts: [
+                {
+                  label: "Article title",
+                  link: "",
+                  target_blank: "",
+                  id: "h_4",
+                  ref: "services",
+                  type: "articleTitle",
+                  element: "h3",
+                  class: [],
+                  icon: "",
+                  parentId: "",
+                  dataParent: false,
+                  parts: [
+                    {
+                      label: "It support",
+                      link: "",
+                      target_blank: "",
+                      id: "artclspan_2",
+                      ref: "services",
+                      type: "title",
+                      element: "span",
+                      class: [
+                        {
+                          label: "lighter",
+                          link: "",
+                          target_blank: "",
+                          id: "c_3",
+                          ref: "services",
+                          type: "class",
+                          element: "className",
+                          class: [],
+                          icon: "",
+                          parentId: "",
+                          dataParent: false,
+                          parts: [],
+                          data: [],
+                          func: null
+                        }
+                      ],
+                      icon: "",
+                      parentId: "",
+                      dataParent: false,
+                      parts: [],
+                      data: [],
+                      func: null
+                    }
+                  ],
+                  data: [],
+                  func: null
+                }
+              ],
+              data: [],
+              func: null
+            }, {
+              label: "We are here to help with:",
+              link: "",
+              target_blank: "",
+              id: "artclp_2",
+              ref: "services",
+              type: "itemText",
+              element: "p",
+              class: [],
+              icon: "",
+              parts: [],
+              data: [],
+              function: null
+            }, {
+              label: "Type of service list",
+              link: "",
+              target_blank: "",
+              id: "artcll_3",
+              ref: "services",
+              type: "list",
+              element: "ul",
+              class: [],
+              icon: "",
+              parentId: "",
+              dataParent: false,
+              parts: [
+                {
+                  label: "Service 1",
+                  link: "",
+                  target_blank: "",
+                  id: "artclli_4",
+                  ref: "services",
+                  type: "item",
+                  element: "li",
+                  class: [],
+                  icon: "",
+                  parentId: "",
+                  dataParent: false,
+                  parts: [],
+                  data: [],
+                  function: null
+                }, {
+                  label: "Service 2",
+                  link: "",
+                  target_blank: "",
+                  id: "artclli_4",
+                  ref: "services",
+                  type: "item",
+                  element: "li",
+                  class: [],
+                  icon: "",
+                  parentId: "",
+                  dataParent: false,
+                  parts: [],
+                  data: [],
+                  function: null
+                }, {
+                  label: "Service 3",
+                  link: "",
+                  target_blank: "",
+                  id: "artclli_4",
+                  ref: "services",
+                  type: "item",
+                  element: "li",
+                  class: [],
+                  icon: "",
+                  parentId: "",
+                  dataParent: false,
+                  parts: [],
+                  data: [],
+                  function: null
+                }, , {
+                  label: "...",
+                  link: "",
+                  target_blank: "",
+                  id: "artclli_4",
+                  ref: "services",
+                  type: "item",
+                  element: "li",
+                  class: [],
+                  icon: "",
+                  parentId: "",
+                  dataParent: false,
+                  parts: [],
+                  data: [],
+                  function: null
+                }
+              ],
+              data: [],
+              function: null
+            },
+            {
+              label: "Contact",
+              link: "",
+              target_blank: "",
+              id: "b_1",
+              ref: "services",
+              type: "button",
+              element: "button",
+              class: [
+                {
+                  label: "primary-middle",
+                  link: "",
+                  target_blank: "",
+                  id: "c_1",
+                  ref: "services",
+                  type: "class",
+                  element: "className",
+                  icon: "",
+                  parts: [],
+                  data: [],
+                  function: null
+                }
+              ],
+              icon: "",
+              parentId: "",
+              dataParent: false,
+              parts: [
+                {
+                  label: "Contact",
+                  link: "mailto: info@pepersandbeans.be",
+                  target_blank: "_blank",
+                  id: "cntcta_1",
+                  ref: "services",
+                  type: "link",
+                  element: "a",
+                  class: [],
+                  icon: "",
+                  parentId: "",
+                  dataParent: false,
+                  parts: [],
+                  data: [],
+                  // function: handleContact.bind(this,)
+                  function: null
+                }
+              ],
+              data: [],
+              // function: handleContact.bind(this,)
+              function: null
+
+            },
+          ],
+          data: [],
+          func: null
+        },
+      ],
+      data: [],
+      func: null
+    }
   ],
   data: [],
   func: null

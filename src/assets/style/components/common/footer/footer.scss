@@ -23,21 +23,21 @@
 
 .footer__text--hightlight::before {
   content: "";
-    position: absolute;
 
-    background-image: url("../../../../static/svg/highlight.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 38px; 
 
-    top:-16px;
-    left: 0;
-    right: -10px;
-    // bottom: 0;
+  position: absolute;
 
-    z-index: -1;
-    height: 38px;
+  background-image: url("../../../../static/svg/highlight.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    
+  top:-16px;
+  left: 0;
+  right: -8px;
+  // bottom: 0;
+
+  z-index: -1;
 }
 
 .footer__link {
@@ -48,7 +48,6 @@
 /* *** STATE *** */
 .footer__text--hightlight:hover { 
   &::before {
-    // right: 0;
     // animation: wave .300s ease-in-out;
     left: 2.4px
   }

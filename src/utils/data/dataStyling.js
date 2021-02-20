@@ -1,11 +1,12 @@
 // add styling and SCSS
-export function createClass(item) {
-  let c = ``;
+let c = ``;
 
+export function createClass(item) {
   if (item.ref) {
     if (item.class.length > 0) {
+      c = `${item.ref}__${item.type}`;
       item.class.forEach((e) => {
-        c = `${item.ref}__${item.type} ${item.ref}__${item.type}--${e.label}`;
+        c = c + ` ${item.ref}__${item.type}--${e.label}`;
       });
     } else {
       c = `${item.ref}__${item.type}`;

@@ -1,14 +1,19 @@
 /* *** LAYOUT *** */
 
 /* *** MODULE *** */
-.button, .navigation__button {
+.button, 
+.navigation__button,
+.header__button,
+.services__button {
   border-radius: 22px;
   padding: 1rem 2rem;
 
   border: none;
 }
 
-.navigation__button--primary {
+.navigation__button--primary,
+.header__button--primary,
+.services__button--primary-middle {
   background-color: $brand-color1;
   color: $primary-color2; 
 
@@ -20,15 +25,18 @@
 }
 
 // /* *** STATE *** */
-.navigation__button:hover {
+.navigation__button:hover,
+.header__button:hover,
+.services__button:hover {
   color: $primary-color2;
   opacity: .8;
   text-decoration: none;
 }
 
 // header & footer
-.header__link:hover, .footer__link:hover {
-  color: $primary-color2;
+.header__link:hover, 
+.footer__link:hover, 
+.services__link:hover {
   text-decoration: none;
 }
 
