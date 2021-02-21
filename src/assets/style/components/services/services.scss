@@ -44,6 +44,11 @@
   width: 100%;
 }
 
+.services__list--innerSpacing,
+.services__img--innerSpacing {
+  @include innerSpace;
+}
+
 .services__button--primary-middle {
   @include middle;
 }

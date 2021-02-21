@@ -5,7 +5,7 @@
 
 @mixin row {
   display: flex;
-  flex-flow: row;
+  flex-flow: row wrap;
 }
 
 @mixin between_center {
@@ -26,4 +26,8 @@
 @mixin middle {
   display: block;
   margin: 0 auto;
+}
+
+@mixin innerSpace {
+  margin: 2.4rem 0;
 }

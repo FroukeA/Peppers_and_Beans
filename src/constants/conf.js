@@ -321,7 +321,21 @@ export const header__content = {
           ref: "header",
           type: "text",
           element: "p",
-          class: [],
+          class: [
+            {
+              label: "innerSpacing",
+              link: "",
+              target_blank: "",
+              id: "c_10",
+              ref: "services",
+              type: "class",
+              element: "className",
+              icon: "",
+              parts: [],
+              data: [],
+              function: null
+            },
+          ],
           icon: "",
           parentId: "",
           dataParent: false,
@@ -731,6 +745,18 @@ export const services__content = {
                   parts: [],
                   data: [],
                   function: null
+                }, {
+                  label: "innerSpacing",
+                  link: "",
+                  target_blank: "",
+                  id: "c_10",
+                  ref: "services",
+                  type: "class",
+                  element: "className",
+                  icon: "",
+                  parts: [],
+                  data: [],
+                  function: null
                 },
               ],
               icon: "",
@@ -818,7 +844,21 @@ export const services__content = {
                           ref: "services",
                           type: "img",
                           element: "img",
-                          class: [],
+                          class: [
+                            {
+                              label: "innerSpacing",
+                              link: "",
+                              target_blank: "",
+                              id: "c_10",
+                              ref: "services",
+                              type: "class",
+                              element: "className",
+                              icon: "",
+                              parts: [],
+                              data: [],
+                              function: null
+                            },
+                          ],
                           icon: visualWeb,
                           parts: [],
                           data: [],
@@ -1021,6 +1061,33 @@ export const services__content = {
                           data: [],
                           func: null
                         }, {
+                          label: "webdevelopment img",
+                          link: "",
+                          target_blank: "",
+                          id: "img_1",
+                          ref: "services",
+                          type: "img",
+                          element: "img",
+                          class: [
+                            {
+                              label: "innerSpacing",
+                              link: "",
+                              target_blank: "",
+                              id: "c_10",
+                              ref: "services",
+                              type: "class",
+                              element: "className",
+                              icon: "",
+                              parts: [],
+                              data: [],
+                              function: null
+                            },
+                          ],
+                          icon: visualWeb,
+                          parts: [],
+                          data: [],
+                          function: null
+                        }, {
                           label: "Tag list",
                           link: "",
                           target_blank: "",
@@ -1219,6 +1286,33 @@ export const services__content = {
                           ],
                           data: [],
                           func: null
+                        }, {
+                          label: "webdevelopment img",
+                          link: "",
+                          target_blank: "",
+                          id: "img_1",
+                          ref: "services",
+                          type: "img",
+                          element: "img",
+                          class: [
+                            {
+                              label: "innerSpacing",
+                              link: "",
+                              target_blank: "",
+                              id: "c_10",
+                              ref: "services",
+                              type: "class",
+                              element: "className",
+                              icon: "",
+                              parts: [],
+                              data: [],
+                              function: null
+                            },
+                          ],
+                          icon: visualWeb,
+                          parts: [],
+                          data: [],
+                          function: null
                         }, {
                           label: "Tag list",
                           link: "",

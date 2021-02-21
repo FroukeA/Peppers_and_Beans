@@ -14,7 +14,10 @@
 
 .header__text {
   max-width: 32vw;
-  margin: 2.4rem 0;
+}
+
+.header__text--innerSpacing {
+  @include innerSpace
 }
 
 /* *** MODULE *** */
