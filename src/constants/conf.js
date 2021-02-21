@@ -614,10 +614,10 @@ export const services__content = {
           element: "div",
           class: [
             {
-              label: "smaller",
+              label: "smaller--webDev",
               link: "",
               target_blank: "",
-              id: "c_8",
+              id: "c_17",
               ref: "services",
               type: "class",
               element: "className",

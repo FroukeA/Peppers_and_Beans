@@ -8,10 +8,6 @@
   @include column;
 }
 
-.header__text {
-  max-width: 32vw;
-}
-
 .header__text--innerSpacing {
   @include innerSpace;
 }
@@ -20,10 +16,7 @@
 .header__header {
   background: $primary-color1;
   color: $primary-color2;
-
-  background-image: url("../../../../static/svg/header_visual.svg");
-  background-position: bottom right;
-
+  
   padding-bottom: 8rem;
 }
 
@@ -47,3 +40,15 @@
 /* *** STATE *** */
 
 /* *** KEYFRAME *** */
+
+/* *** MEDIAQUERY *** */
+@media only screen and (min-width: 1200px) {
+  .header__header {
+    background-image: url("../../../../static/svg/header_visual.svg");
+    background-position: bottom right;
+  }
+
+  .header__text {
+    max-width: 32vw;
+  }
+}

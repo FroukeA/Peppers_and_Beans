@@ -4,6 +4,13 @@
   @include end-center;
 }
 
+.services__articleDiv--smaller {
+    @include column;
+    @include center-center;
+  
+    // align-self: flex-end;
+  }
+
 .services__sectionTitle--hightlight {
   padding-right: 30.4rem;
 } 
@@ -16,19 +23,6 @@
   width: 100%;
 
   padding:9.6rem;
-}
-
-.services__articleDiv--smaller {
-  @include column;
-  @include center-center;
-
-  width: 56vw;
-
-  // align-self: flex-end;
-}
-
-.services__articleDiv--right {
-  align-self: flex-end;
 }
 
 .services__list--row-bc {
@@ -59,28 +53,6 @@
 //   background-position: top right;
 // }
 
-.services__part--webDev {
-  background-image: url("../../../static/svg/webdevelopment.svg");
-  background-position: top right;
-
-  background-size: 32vw auto;
-}
-
-.services__part--devSup {
-  background-image: url("../../../static/svg/developmentSupport.svg");
-  background-position: center;
-
-  // background-size: 600px auto;
-  background-size: contain;
-}
-
-.services__part--itSup {
-  background-image: url("../../../static/svg/itSupport.svg");
-  background-position: center right;
-
-  background-size: 32vw auto;
-}
-
 .services__sectionTitle--hightlight::before {
   top:-$secundairy-size1;
   left: -$secundairy-size2;
@@ -103,3 +75,46 @@
 /* *** STATE *** */
 
 /* *** KEYFRAME *** */
+
+/* *** MEDIAQUERY *** */
+@media only screen and (min-width: 1520px) {
+  .services__part--webDev {
+    background-image: url("../../../static/svg/webdevelopment.svg");
+    background-position: top right;
+
+    background-size: 32vw auto;
+  }
+
+  .services__articleDiv--smaller--webDev {
+    @include column;
+    @include center-center;
+
+    width: 56vw;
+
+    // align-self: flex-end;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .services__articleDiv--right {
+    align-self: flex-end;
+  }
+
+  .services__part--devSup {
+    background-image: url("../../../static/svg/developmentSupport.svg");
+    background-position: center;
+
+    // background-size: 600px auto;
+    background-size: contain;
+  }
+
+  .services__part--itSup {
+    background-image: url("../../../static/svg/itSupport.svg");
+    background-position: center right;
+
+    background-size: 32vw auto;
+  }
+  .services__articleDiv--smaller {
+    width: 56vw;
+  }
+}
