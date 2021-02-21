@@ -22,17 +22,6 @@ import Header from "../../components/common/header/Header";
 import Footer from "../../components/common/footer/Footer";
 
 export default function App() {
-  // const [weatherData, setWeatherData] = useState({ loading: true, weatherContent: {}, forecastContent: {} });
-
-  // function handleData(element, data) {
-  //   setWeatherData({
-  //     ready: false,
-  //     [element]: data
-  //   })
-  // }
-
-  // createDataElement(forecast__content, handleData.bind(this))
-
   return (
     <div className="App">
       {/* common */}
@@ -49,8 +38,6 @@ export default function App() {
           createClass={createClass}
         />
       </main>
-
-
 
       {/* common */}
       < Footer

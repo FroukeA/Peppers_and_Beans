@@ -1,5 +1,11 @@
+// data
 import React from "react";
 
+// functions
+
+// style
+
+// components
 import Button from "../../../ui/buttons/Button";
 import Input from "../../../ui/inputs/Input";
 import Label from "../../../ui/labels/Label";
@@ -16,23 +22,16 @@ function renderFormFields(props) {
           {item.type === "form_dataPart" ? (
             <React.Fragment>
               <Label
-                // titles
-                // functions
-                // data
                 class={props.createClass(item)}
                 base={""}
                 type={""}
                 hide={props.hide}
                 labelText={item.label}
                 htmlFor={item.id}
-              // array & objects
               />
 
               <Input
-                // titles
-                // functions
                 onChange={item.function}
-                // data
                 class={""}
                 base=""
                 type={"radio"}
@@ -42,7 +41,6 @@ function renderFormFields(props) {
                 required="true"
                 reference={item.ref}
                 checked={item.visible === "true" ? true : false}
-              // array & objects
               />
             </React.Fragment>
           ) : null}
@@ -51,18 +49,13 @@ function renderFormFields(props) {
             {renderFormItems(props, item.parts)}
             {item.position !== "end" ? (
               <Button
-                // titles
-                // functions
-                // data
                 class={props.createClass(item)}
                 disabled={props.form_nextButtonDisabled}
                 reference={item.ref}
                 type={props.typeSecondButton}
                 id={props.idSecondButton}
                 name={props.idSecondButton}
-                // onClick={handleClick.bind(this)}
                 label={props.labelSecondButton}
-              // array & objects
               />
             ) : null}
           </div>
@@ -78,23 +71,16 @@ function renderFormItems(props, array) {
       parentItem.type !== "custom" ? (
         <div key={pi} className={""}>
           <Label
-            // titles
-            // functions
-            // data
             class={""}
             base=""
             type=""
             hide={props.hide}
             labelText={parentItem.label}
             htmlFor={parentItem.id}
-          // array & objects
           />
 
           <Input
-            // titles
-            // functions
             onChange={parentItem.function}
-            // data
             class={"form__input--search"}
             base=""
             type={parentItem.type}
@@ -103,7 +89,6 @@ function renderFormItems(props, array) {
             placeholder={parentItem.placeholder}
             required={parentItem.required}
             reference={parentItem.ref}
-          // array & objects
           />
         </div>
       ) : (
@@ -114,22 +99,15 @@ function renderFormItems(props, array) {
           return subItem.type !== "custom" ? (
             <div key={si} className={props.createClass(subItem)}>
               <Label
-                // titles
-                // functions
-                // data
                 class={""}
                 base={""}
                 type={""}
                 hide={props.hide}
                 labelText={subItem.label}
                 htmlFor={subItem.id}
-              // array & objects
               />
               <Input
-                // titles
-                // functions
                 onChange={subItem.function}
-                // data
                 class={""}
                 base={""}
                 type={subItem.type}
@@ -138,7 +116,6 @@ function renderFormItems(props, array) {
                 placeholder={subItem.placeholder}
                 required={subItem.required}
                 reference={subItem.ref}
-              // array & objects
               />
             </div>
           ) : (
@@ -155,10 +132,7 @@ export default function Form(props) {
       { renderFormFields(props)}
 
       <Button
-        // titles
-        // functions
         disabled={props.form_submitButtonDisabled}
-        // data
         class={"form__button--submit"}
         type={props.idSubmitButton}
         id={props.idSubmitButton}

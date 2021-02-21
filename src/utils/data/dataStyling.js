@@ -1,4 +1,10 @@
-// add styling and SCSS
+// data
+
+// functions
+
+// components
+
+// *** Add className ***
 let c = ``;
 
 export function createClass(item) {

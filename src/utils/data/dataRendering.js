@@ -20,7 +20,7 @@ import CustomBoxInput from "../../components/ui/groups/CustomBoxInput";
 import Button from "../../components/ui/buttons/Button";
 import Img from '../../components/ui/Img';
 
-// render data
+// *** Render data ***
 export function renderElementItems(array) {
   return array.map((item, i) => {
     let todo = null;

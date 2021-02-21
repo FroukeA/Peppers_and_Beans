@@ -12,7 +12,7 @@
   z-index: 0;
 }
 
-.services__part--webdev, 
+.services__part--webDev, 
 .services__part--devsup, 
 .services__part--itsup {
   @include column;
@@ -54,7 +54,7 @@
 }
 
 /* *** MODULE *** */
-.services__part--webdev {
+.services__part--webDev {
   background-image: url("../../../static/svg/webdevelopment.svg");
   background-repeat: no-repeat;
   background-position: top right;
@@ -62,7 +62,7 @@
   background-size: 600px auto;
 }
 
-.services__part--devsup {
+.services__part--devSup {
   background-image: url("../../../static/svg/developmentSupport.svg");
   background-repeat: no-repeat;
   background-position: top left;
@@ -70,7 +70,7 @@
   background-size: 600px auto;
 }
 
-.services__part--itsup {
+.services__part--itSup {
   background-image: url("../../../static/svg/itSupport.svg");
   background-repeat: no-repeat;
   background-position: top right;

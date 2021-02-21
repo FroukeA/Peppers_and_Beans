@@ -2,8 +2,6 @@
 
 // functions
 
-// *** merge ***
+// components
 
-// date
-
-// merge
+// *** Merge data from outside source to template ***
