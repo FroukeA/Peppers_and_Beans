@@ -5,21 +5,17 @@
 }
 
 .services__sectionTitle--hightlight {
-  position: relative;
-
   padding-right: 30.4rem;
-  
-  z-index: 0;
-}
+} 
 
 .services__part--webDev, 
-.services__part--devsup, 
-.services__part--itsup {
+.services__part--devSup, 
+.services__part--itSup {
   @include column;
 
   width: 100%;
 
-  padding:4.8rem;
+  padding:9.6rem;
 }
 
 .services__articleDiv--smaller {
@@ -49,62 +45,57 @@
   @include innerSpace;
 }
 
+.services__list--overlay-list {
+  margin-top: -$primary-size1;
+}
+
 .services__button--primary-middle {
   @include middle;
 }
 
 /* *** MODULE *** */
+// .services__part--webDev,
+// .services__part--itSup {
+//   background-position: top right;
+// }
+
 .services__part--webDev {
   background-image: url("../../../static/svg/webdevelopment.svg");
-  background-repeat: no-repeat;
   background-position: top right;
 
-  background-size: 600px auto;
+  background-size: 32vw auto;
 }
 
 .services__part--devSup {
   background-image: url("../../../static/svg/developmentSupport.svg");
-  background-repeat: no-repeat;
-  background-position: top left;
+  background-position: center;
 
-  background-size: 600px auto;
+  // background-size: 600px auto;
+  background-size: contain;
 }
 
 .services__part--itSup {
   background-image: url("../../../static/svg/itSupport.svg");
-  background-repeat: no-repeat;
-  background-position: top right;
+  background-position: center right;
 
-  background-size: 600px auto;
+  background-size: 32vw auto;
 }
 
 .services__sectionTitle--hightlight::before {
-  content: "";
-
-  height: 38px;
-
-  position: absolute;
-
-  background-image: url("../../../static/svg/highlight.svg");
-  background-repeat: no-repeat;
-  // background-size: cover;
-
-  top:-16px;
-  left: -38px;
+  top:-$secundairy-size1;
+  left: -$secundairy-size2;
   right: 0;
-
   // bottom: 0;
-  z-index: -1;  
 }
 
-.services__title--lighter {
-  font-family: 'Source Serif Pro';
+.services__title--hightlight::before {
+  top:-$secundairy-size1;
+  left: -$secundairy-size1;
+  right: 0;
+  // bottom: 0;
 }
 
 .services__item--tag {
-  border-radius: 22px;
-  padding: 1rem 2rem;
-
   background-color: $primary-color1;
   color: $brand-color1; 
 }

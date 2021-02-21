@@ -681,6 +681,18 @@ export const services__content = {
                           parts: [],
                           data: [],
                           func: null
+                        }, {
+                          label: "hightlight",
+                          link: "",
+                          target_blank: "",
+                          id: "c_5",
+                          ref: "header",
+                          type: "class",
+                          element: "className",
+                          icon: "",
+                          parts: [],
+                          data: [],
+                          function: null
                         }
                       ],
                       icon: "",
@@ -793,7 +805,21 @@ export const services__content = {
                               ref: "services",
                               type: "articleTitle",
                               element: "h4",
-                              class: [],
+                              class: [
+                                {
+                                  label: "hide",
+                                  link: "",
+                                  target_blank: "",
+                                  id: "c_16",
+                                  ref: "services",
+                                  type: "class",
+                                  element: "className",
+                                  icon: "",
+                                  parts: [],
+                                  data: [],
+                                  function: null
+                                },
+                              ],
                               icon: "",
                               parentId: "",
                               dataParent: false,
@@ -830,19 +856,19 @@ export const services__content = {
                           type: "img",
                           element: "img",
                           class: [
-                            {
-                              label: "innerSpacing",
-                              link: "",
-                              target_blank: "",
-                              id: "c_10",
-                              ref: "services",
-                              type: "class",
-                              element: "className",
-                              icon: "",
-                              parts: [],
-                              data: [],
-                              function: null
-                            },
+                            // {
+                            //   label: "innerSpacing",
+                            //   link: "",
+                            //   target_blank: "",
+                            //   id: "c_10",
+                            //   ref: "services",
+                            //   type: "class",
+                            //   element: "className",
+                            //   icon: "",
+                            //   parts: [],
+                            //   data: [],
+                            //   function: null
+                            // },
                           ],
                           icon: visualWeb,
                           parts: [],
@@ -869,7 +895,19 @@ export const services__content = {
                               parts: [],
                               data: [],
                               function: null
-                            }
+                            }, {
+                              label: "overlay-list",
+                              link: "",
+                              target_blank: "",
+                              id: "c_15",
+                              ref: "header",
+                              type: "class",
+                              element: "className",
+                              icon: "",
+                              parts: [],
+                              data: [],
+                              function: null
+                            },
                           ],
                           icon: "",
                           parentId: "",
@@ -1017,7 +1055,21 @@ export const services__content = {
                               ref: "services",
                               type: "articleTitle",
                               element: "h4",
-                              class: [],
+                              class: [
+                                {
+                                  label: "hide",
+                                  link: "",
+                                  target_blank: "",
+                                  id: "c_16",
+                                  ref: "services",
+                                  type: "class",
+                                  element: "className",
+                                  icon: "",
+                                  parts: [],
+                                  data: [],
+                                  function: null
+                                },
+                              ],
                               icon: "",
                               parentId: "",
                               dataParent: false,
@@ -1054,19 +1106,19 @@ export const services__content = {
                           type: "img",
                           element: "img",
                           class: [
-                            {
-                              label: "innerSpacing",
-                              link: "",
-                              target_blank: "",
-                              id: "c_10",
-                              ref: "services",
-                              type: "class",
-                              element: "className",
-                              icon: "",
-                              parts: [],
-                              data: [],
-                              function: null
-                            },
+                            // {
+                            //   label: "innerSpacing",
+                            //   link: "",
+                            //   target_blank: "",
+                            //   id: "c_10",
+                            //   ref: "services",
+                            //   type: "class",
+                            //   element: "className",
+                            //   icon: "",
+                            //   parts: [],
+                            //   data: [],
+                            //   function: null
+                            // },
                           ],
                           icon: visualWeb,
                           parts: [],
@@ -1093,7 +1145,19 @@ export const services__content = {
                               parts: [],
                               data: [],
                               function: null
-                            }
+                            }, {
+                              label: "overlay-list",
+                              link: "",
+                              target_blank: "",
+                              id: "c_15",
+                              ref: "header",
+                              type: "class",
+                              element: "className",
+                              icon: "",
+                              parts: [],
+                              data: [],
+                              function: null
+                            },
                           ],
                           icon: "",
                           parentId: "",
@@ -1243,7 +1307,21 @@ export const services__content = {
                               ref: "services",
                               type: "articleTitle",
                               element: "h4",
-                              class: [],
+                              class: [
+                                {
+                                  label: "hide",
+                                  link: "",
+                                  target_blank: "",
+                                  id: "c_16",
+                                  ref: "services",
+                                  type: "class",
+                                  element: "className",
+                                  icon: "",
+                                  parts: [],
+                                  data: [],
+                                  function: null
+                                },
+                              ],
                               icon: "",
                               parentId: "",
                               dataParent: false,
@@ -1280,19 +1358,19 @@ export const services__content = {
                           type: "img",
                           element: "img",
                           class: [
-                            {
-                              label: "innerSpacing",
-                              link: "",
-                              target_blank: "",
-                              id: "c_10",
-                              ref: "services",
-                              type: "class",
-                              element: "className",
-                              icon: "",
-                              parts: [],
-                              data: [],
-                              function: null
-                            },
+                            // {
+                            //   label: "innerSpacing",
+                            //   link: "",
+                            //   target_blank: "",
+                            //   id: "c_10",
+                            //   ref: "services",
+                            //   type: "class",
+                            //   element: "className",
+                            //   icon: "",
+                            //   parts: [],
+                            //   data: [],
+                            //   function: null
+                            // },
                           ],
                           icon: visualWeb,
                           parts: [],
@@ -1319,7 +1397,19 @@ export const services__content = {
                               parts: [],
                               data: [],
                               function: null
-                            }
+                            }, {
+                              label: "overlay-list",
+                              link: "",
+                              target_blank: "",
+                              id: "c_15",
+                              ref: "header",
+                              type: "class",
+                              element: "className",
+                              icon: "",
+                              parts: [],
+                              data: [],
+                              function: null
+                            },
                           ],
                           icon: "",
                           parentId: "",
@@ -1601,6 +1691,18 @@ export const services__content = {
                           parts: [],
                           data: [],
                           func: null
+                        }, {
+                          label: "hightlight",
+                          link: "",
+                          target_blank: "",
+                          id: "c_5",
+                          ref: "header",
+                          type: "class",
+                          element: "className",
+                          icon: "",
+                          parts: [],
+                          data: [],
+                          function: null
                         }
                       ],
                       icon: "",
@@ -1638,7 +1740,21 @@ export const services__content = {
               ref: "services",
               type: "list",
               element: "ul",
-              class: [],
+              class: [
+                {
+                  label: "innerSpacing",
+                  link: "",
+                  target_blank: "",
+                  id: "c_10",
+                  ref: "services",
+                  type: "class",
+                  element: "className",
+                  icon: "",
+                  parts: [],
+                  data: [],
+                  function: null
+                },
+              ],
               icon: "",
               parentId: "",
               dataParent: false,
@@ -1773,7 +1889,7 @@ export const services__content = {
       element: "article",
       class: [
         {
-          label: "itsup",
+          label: "itSup",
           link: "",
           target_blank: "",
           id: "c_14",
@@ -1867,6 +1983,18 @@ export const services__content = {
                           parts: [],
                           data: [],
                           func: null
+                        }, {
+                          label: "hightlight",
+                          link: "",
+                          target_blank: "",
+                          id: "c_5",
+                          ref: "header",
+                          type: "class",
+                          element: "className",
+                          icon: "",
+                          parts: [],
+                          data: [],
+                          function: null
                         }
                       ],
                       icon: "",
@@ -1904,7 +2032,21 @@ export const services__content = {
               ref: "services",
               type: "list",
               element: "ul",
-              class: [],
+              class: [
+                {
+                  label: "innerSpacing",
+                  link: "",
+                  target_blank: "",
+                  id: "c_10",
+                  ref: "services",
+                  type: "class",
+                  element: "className",
+                  icon: "",
+                  parts: [],
+                  data: [],
+                  function: null
+                }, 3
+              ],
               icon: "",
               parentId: "",
               dataParent: false,

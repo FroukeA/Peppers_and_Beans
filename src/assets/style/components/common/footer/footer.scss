@@ -5,7 +5,7 @@
   background: $primary-color1;
   color: $primary-color2;
 
-  padding: 2.4rem 0;
+  padding: $primary-size1 0;
 
   & > .container {
     @include row;
@@ -14,30 +14,14 @@
 }
 
 .footer__text--hightlight {
-  position: relative;
-
   margin-left: .8rem;
-
-  z-index: 0;
 }
 
 .footer__text--hightlight::before {
-  content: "";
-
-  height: 38px; 
-
-  position: absolute;
-
-  background-image: url("../../../../static/svg/highlight.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  top:-16px;
+  top:-$secundairy-size1;
   left: 0;
   right: -8px;
   // bottom: 0;
-
-  z-index: -1;
 }
 
 .footer__link {

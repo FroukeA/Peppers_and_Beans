@@ -1,16 +1,11 @@
 /* *** LAYOUT *** */
 .main {
-  position: relative;
-
   padding-top: 23.8rem;
 }
 
 /* *** MODULE *** */
 .main::after {
-  content: '';
-
   background-image: url("../../../../static/svg/header_shape.svg");
-  background-repeat: no-repeat;
   background-size: cover;
 
   position: absolute;

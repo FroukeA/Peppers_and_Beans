@@ -1,6 +1,97 @@
 @import "./import.scss";
 /* *** LAYOUT *** */
+.header__mainTitle > span,
+.services__articleTitle--hide {
+   display: none
+}
+
+.footer__text--hightlight,
+.services__sectionTitle--hightlight,
+.services__title--hightlight,
+.navigation__button--primary,
+.header__button--primary,
+.services__button--primary-middle {
+  z-index: 0;
+}
+
+.main, 
+.footer__text--hightlight,
+.services__sectionTitle--hightlight,
+.services__title--hightlight {
+  position: relative;
+}
+
+/* *** MODULE *** */
+.header__title,
+.services__title {
+  font-size: $primary-size1;
+}
+
+.services__title--lighter,
+.header__title--lighter {
+  font-family: 'Source Serif Pro';
+}
+
+.navigation__link,
+.header__title--bolder {
+  font-weight: 700;
+}
+
+.header__header,
+.header__mainTitle,
+.main::after,
+.services__sectionTitle--hightlight::before,
+.services__title--hightlight::before,
+.services__part--webDev,
+.services__part--devSup,
+.services__part--itSup,
+.footer__text--hightlight::before {
+  background-repeat: no-repeat;
+}
+
+.services__sectionTitle--hightlight::before,
+.services__title--hightlight::before,
+.footer__text--hightlight::before,
+.main::after {
+  content: '';
+}
+
+.services__sectionTitle--hightlight::before,
+.services__title--hightlight::before,
+.footer__text--hightlight::before {
+  height: $secundairy-size2;
+
+  position: absolute;
+
+  background-image: url("../../static/svg/highlight.svg");
+  // background-size: cover;
+
+  z-index: -1;  
+}
+
+.button, 
+.navigation__button,
+.header__button,
+.services__button,
+.services__item--tag {
+  border-radius: 22px;
+  padding: 1rem 2rem;
+}
 
 /* *** STATE *** */
+.navigation__link:hover,
+.navigation__button:hover,
+.header__button:hover,
+.services__button:hover  {
+  text-decoration: none;
+
+  opacity: .8;
+}
+
+.header__link:hover, 
+.footer__link:hover, 
+.services__link:hover {
+  text-decoration: none;
+}
 
 /* *** KEYFRAME *** */

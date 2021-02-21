@@ -12,15 +12,11 @@
 /* *** MODULE *** */
 .navigation__link {
   color: $brand-color1;
-  font-weight: 700;
 }
 
 /* *** STATE *** */
 .navigation__link:hover {
   color: $brand-color1;
-  text-decoration: none;
-
-  opacity: .8;
 }
 
 /* *** KEYFRAME *** */
