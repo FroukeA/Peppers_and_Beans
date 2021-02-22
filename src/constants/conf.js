@@ -754,7 +754,19 @@ export const services__content = {
                   parts: [],
                   data: [],
                   function: null
-                },
+                }, {
+                  label: "middle",
+                  link: "",
+                  target_blank: "",
+                  id: "c_18",
+                  ref: "services",
+                  type: "class",
+                  element: "className",
+                  icon: "",
+                  parts: [],
+                  data: [],
+                  function: null
+                }
               ],
               icon: "",
               parentId: "",
@@ -768,7 +780,21 @@ export const services__content = {
                   ref: "services",
                   type: "item",
                   element: "li",
-                  class: [],
+                  class: [
+                    {
+                      label: "innerSpacing",
+                      link: "",
+                      target_blank: "",
+                      id: "c_10",
+                      ref: "services",
+                      type: "class",
+                      element: "className",
+                      icon: "",
+                      parts: [],
+                      data: [],
+                      function: null
+                    }
+                  ],
                   icon: "",
                   parts: [
                     {
@@ -1018,7 +1044,21 @@ export const services__content = {
                   ref: "services",
                   type: "item",
                   element: "li",
-                  class: [],
+                  class: [
+                    {
+                      label: "innerSpacing",
+                      link: "",
+                      target_blank: "",
+                      id: "c_10",
+                      ref: "services",
+                      type: "class",
+                      element: "className",
+                      icon: "",
+                      parts: [],
+                      data: [],
+                      function: null
+                    }
+                  ],
                   icon: "",
                   parts: [
                     {
@@ -1270,7 +1310,21 @@ export const services__content = {
                   ref: "services",
                   type: "item",
                   element: "li",
-                  class: [],
+                  class: [
+                    {
+                      label: "innerSpacing",
+                      link: "",
+                      target_blank: "",
+                      id: "c_10",
+                      ref: "services",
+                      type: "class",
+                      element: "className",
+                      icon: "",
+                      parts: [],
+                      data: [],
+                      function: null
+                    }
+                  ],
                   icon: "",
                   parts: [
                     {

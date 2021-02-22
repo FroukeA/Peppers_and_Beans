@@ -5,15 +5,22 @@
 }
 
 .services__articleDiv--smaller {
-    @include column;
-    @include center-center;
+  @include column;
+  @include center-center;
   
-    // align-self: flex-end;
-  }
+  // align-self: flex-end;
+}
 
-.services__sectionTitle--hightlight {
-  padding-right: 30.4rem;
-} 
+.services__articleDiv--smaller--webDev {
+  @include column;
+  @include center-center;
+
+}
+
+.services__list--row-bc {
+  @include row;
+  @include between_center;
+}
 
 .services__part--webDev, 
 .services__part--devSup, 
@@ -23,11 +30,6 @@
   width: 100%;
 
   padding:9.6rem;
-}
-
-.services__list--row-bc {
-  @include row;
-  @include between_center;
 }
 
 .services__list--wider {
@@ -86,12 +88,7 @@
   }
 
   .services__articleDiv--smaller--webDev {
-    @include column;
-    @include center-center;
-
     width: 56vw;
-
-    // align-self: flex-end;
   }
 }
 
@@ -110,11 +107,40 @@
 
   .services__part--itSup {
     background-image: url("../../../static/svg/itSupport.svg");
-    background-position: center right;
+    background-position: top right;
 
-    background-size: 32vw auto;
+    background-size: 40vw auto;
   }
   .services__articleDiv--smaller {
     width: 56vw;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .services__sectionTitle--hightlight {
+    padding-right: 30.4rem;
+  } 
+}
+
+@media only screen and (max-width: 500px) {
+  .services__part--webDev, 
+  .services__part--devSup, 
+  .services__part--itSup {
+    padding:9.6rem 0;
+  }
+
+  .services__sectionTitle--hightlight {
+    padding-right: $primary-size1;
+  } 
+}
+
+
+@media only screen and (max-width: 757px) {
+  .services__list--middle {
+    justify-content: center;
+
+    & > .services__item--innerSpacing {
+      margin: $primary-size1 auto;
+    }
   }
 }

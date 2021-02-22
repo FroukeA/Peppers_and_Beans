@@ -49,3 +49,15 @@
 }
 
 /* *** MEDIAQUERY *** */
+@media only screen and (max-width: 768px) {
+  .footer__footer {
+    & .navigation__list {
+      margin: $primary-size1 auto;
+    }
+
+    & > .container {
+      @include column;
+      @include center-center;
+    }
+  }
+}
