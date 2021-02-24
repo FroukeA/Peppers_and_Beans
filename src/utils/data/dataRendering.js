@@ -24,7 +24,6 @@ import Img from '../../components/ui/Img';
 export function renderElementItems(array) {
   return array.map((item, i) => {
     let todo = null;
-
     if (item.type === "card") {
       return (
         // DOM is a card
@@ -37,15 +36,28 @@ export function renderElementItems(array) {
       // render list !!! type = trough props
       todo = renderComponent(item, i, null);
     } else if (item.parts.length > 0) {
+      console.log('here', item, item.type, item.id)
       // Nested DOM
-      todo = (
-        <item.element
-          key={i}
-          className={createClass(item)}
-        >
-          {renderElementItems(item.parts)}
-        </item.element>
-      );
+      if (item.id.includes("fta") || item.id.includes("cntcta") || item.id.includes("nava") || item.id.includes("weba")) {
+        todo = (
+          <item.element
+            key={i}
+            className={createClass(item)}
+            href={item.link} target={item.target_blank}
+          >
+            {renderElementItems(item.parts)}
+          </item.element>
+        );
+      } else {
+        todo = (
+          <item.element
+            key={i}
+            className={createClass(item)}
+          >
+            {renderElementItems(item.parts)}
+          </item.element>
+        );
+      }
     } else {
       // Single DOM
       if (
@@ -80,7 +92,7 @@ export function renderElement(item, key) {
     );
 
     return renderComponent(item, "form" + key, array);
-  } else if (item.id.includes("fta") || item.id.includes("cntcta") || item.id.includes("nava")) {
+  } else if (item.id.includes("fta") || item.id.includes("cntcta") || item.id.includes("nava") || item.id.includes("weba")) {
     return (
       <item.element
         key={"element" + key}

@@ -25,6 +25,7 @@ function handleRenderElements(item, key) {
     if (item.type === "card") {
       renderComponent(item, "", null, null, load);
     } else {
+      console.log('commonUtils', item)
       return (
         <item.element key={key} className={createClass(item)}>
           {renderElementItems(item.parts)}
