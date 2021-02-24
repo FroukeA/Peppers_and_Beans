@@ -8,6 +8,11 @@
   flex-flow: row wrap;
 }
 
+@mixin row--noWrap {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
 @mixin between_center {
   justify-content: space-between;
   align-items: center;

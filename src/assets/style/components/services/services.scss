@@ -41,13 +41,17 @@
   @include innerSpace;
 }
 
+.services__img {
+  width: 100%;
+}
+
 .services__list--overlay-list {
   margin-top: -$primary-size1;
 }
 
 .services__list--bColor {
   > li{
-    @include row;
+    @include row--noWrap;
     @include begin_center;
   }
 
@@ -174,5 +178,9 @@
     & > .services__item--innerSpacing {
       margin: $primary-size1 auto;
     }
+  }
+
+  .services__section {
+    padding: 0 $primary-size1;
   }
 }
