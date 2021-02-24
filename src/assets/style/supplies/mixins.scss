@@ -18,6 +18,11 @@
   align-items: center;
 }
 
+@mixin begin_center {
+  justify-content: flex-start;
+  align-items: center;
+}
+
 @mixin center_center {
   justify-content: center;
   align-items: center;

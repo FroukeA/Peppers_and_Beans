@@ -45,6 +45,38 @@
   margin-top: -$primary-size1;
 }
 
+.services__list--bColor {
+  > li{
+    @include row;
+    @include begin_center;
+  }
+
+  > li + li {
+    margin: $primary-size1 0;
+  }
+
+  >li:nth-child(even)::before {
+    background-image: url("../../../static/svg/bean.svg");
+  }
+
+  >li:nth-child(odd)::before {
+    background-image: url("../../../static/svg/pepper.svg");
+  }
+
+  li::before{
+    content: '';
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+
+    margin-right: $secundairy-size1;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+}
+
 .services__button--primary-middle {
   @include middle;
 }

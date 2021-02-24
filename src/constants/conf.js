@@ -1917,7 +1917,19 @@ export const services__content = {
                   parts: [],
                   data: [],
                   function: null
-                },
+                }, {
+                  label: "bColor",
+                  link: "",
+                  target_blank: "",
+                  id: "c_19",
+                  ref: "services",
+                  type: "class",
+                  element: "className",
+                  icon: "",
+                  parts: [],
+                  data: [],
+                  function: null
+                }
               ],
               icon: "",
               parentId: "",
@@ -2224,7 +2236,19 @@ export const services__content = {
                   parts: [],
                   data: [],
                   function: null
-                }, 3
+                }, {
+                  label: "bColor",
+                  link: "",
+                  target_blank: "",
+                  id: "c_19",
+                  ref: "services",
+                  type: "class",
+                  element: "className",
+                  icon: "",
+                  parts: [],
+                  data: [],
+                  function: null
+                }
               ],
               icon: "",
               parentId: "",
