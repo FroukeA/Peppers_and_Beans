@@ -36,7 +36,6 @@ export function renderElementItems(array) {
       // render list !!! type = trough props
       todo = renderComponent(item, i, null);
     } else if (item.parts.length > 0) {
-      console.log('here', item, item.type, item.id)
       // Nested DOM
       if (item.id.includes("fta") || item.id.includes("cntcta") || item.id.includes("nava") || item.id.includes("weba")) {
         todo = (
