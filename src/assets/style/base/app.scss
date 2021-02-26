@@ -59,6 +59,7 @@
 .services__sectionTitle--hightlight::before,
 .services__title--hightlight::before,
 .footer__text--hightlight::before {
+  width: 16rem;
   height: $secundairy-size2;
 
   position: absolute;
@@ -92,6 +93,13 @@
 .footer__link:hover, 
 .services__link:hover {
   text-decoration: none;
+}
+
+.navigation__button:hover,
+.header__button:hover,
+.services__button:hover,
+.footer__link:hover {
+  color: $primary-color2;
 }
 
 /* *** KEYFRAME *** */

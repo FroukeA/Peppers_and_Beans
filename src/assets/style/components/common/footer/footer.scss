@@ -20,7 +20,7 @@
 .footer__text--hightlight::before {
   top:-$secundairy-size1;
   left: 0;
-  right: -8px;
+  right: px;
   // bottom: 0;
 }
 
@@ -35,6 +35,10 @@
     // animation: wave .300s ease-in-out;
     left: 2.4px
   }
+}
+
+.footer__link:hover {
+  opacity: .8;
 }
 
 /* *** KEYFRAME *** */
